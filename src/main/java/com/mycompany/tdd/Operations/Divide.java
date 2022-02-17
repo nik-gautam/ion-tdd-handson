@@ -25,7 +25,11 @@ public class Divide implements Calculation {
             return 0;
         }
 
+        int res = input1 / input2;
 
+        if(res > 100) {
+            return 0;
+        }
 
         return input1 / input2;
     }
